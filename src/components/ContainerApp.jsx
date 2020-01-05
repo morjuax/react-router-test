@@ -4,10 +4,8 @@ import Router from './Router';
 
 const ContainerApp = () => (
   <main>
-    <Navegation />
-    <div className="container">
-      <Router/> 
-    </div>
+    
+    <Router/> 
   </main>
 );
 

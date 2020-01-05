@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, NavItem, Icon } from "react-materialize";
+import {NavLink} from 'react-router-dom'
 
 const Navegation = () => (
   <header>
@@ -23,8 +24,9 @@ const Navegation = () => (
         preventScrolling: true
       }}
     >
-      <NavItem href="/route-test">section test</NavItem>
-      <NavItem href="/">index</NavItem>
+      <NavLink to="/">index</NavLink>
+      <NavLink to="/route-test">section test</NavLink>
+      <NavLink to="/page-2/juan">Page 2</NavLink>
     </Navbar>
   </header>
 );
