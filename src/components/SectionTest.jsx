@@ -2,8 +2,8 @@ import React from "react";
 import { Row, Col, Card, Icon } from "react-materialize";
 
 const SectionTest = () => (
-  <Row>
-    <Col m={6} s={12}>
+  <div className="row">
+    <div className="s12 m6">
       <Card
         actions={[
           <a key="1" href="#">
@@ -21,8 +21,8 @@ const SectionTest = () => (
       >
         I am a very simple card.
       </Card>
-    </Col>
-  </Row>
+    </div>
+  </div>
 );
 
 

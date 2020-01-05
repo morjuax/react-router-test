@@ -24,9 +24,9 @@ const Navegation = () => (
         preventScrolling: true
       }}
     >
-      <NavLink to="/">index</NavLink>
-      <NavLink to="/route-test">section test</NavLink>
-      <NavLink to="/page-2/juan">Page 2</NavLink>
+      <NavLink to="/" activeClassName="active">index</NavLink>
+      <NavLink to="/route-test" activeClassName="active">section test</NavLink>
+      <NavLink to="/page-2/juan" activeClassName="active">Page 2</NavLink>
     </Navbar>
   </header>
 );
